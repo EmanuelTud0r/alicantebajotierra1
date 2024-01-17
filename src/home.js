@@ -7,6 +7,7 @@ import Navbar from './navbar';
 import Photos from './photos';
 import Timetable from './timetable';
 import Routes from './routes';
+import ContactForm from './contact';
 
 export default class Home extends Component {
   render() {
@@ -17,13 +18,14 @@ export default class Home extends Component {
         <Info />
         
         <Routes />
-        
         <Timetable />
         
         <Infrastructure />
         
         <Photos />
-        
+
+        <ContactForm/>
+
         <Footer />
       </div>
     );

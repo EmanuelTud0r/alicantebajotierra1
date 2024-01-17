@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './Infrastructure.css';
 import { Carousel } from 'react-responsive-carousel';
-
+import logo from './resources/logo.jpeg';
 export default class Infrastructure extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ export default class Infrastructure extends Component {
           <div className="slide">
             <div className="row">
               <div className="column">
-                <img src="./resources/logo.jpeg" alt="Image 1" />
+              <img src={logo} alt="Imagen 1" />
               </div>
               <div className="column">
                 <ul>
@@ -26,7 +26,7 @@ export default class Infrastructure extends Component {
           <div className="slide">
             <div className="row">
               <div className="column">
-                <img src="./resources/logo.jpeg" alt="Image 2" />
+              <img src={logo} alt="Imagen 1" />
               </div>
               <div className="column">
                 <ul>
