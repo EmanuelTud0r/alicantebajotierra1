@@ -16,8 +16,8 @@ export default class Infrastructure extends Component {
               </div>
               <div className="column">
                 <ul>
-                  <li>Text item 1</li>
-                  <li>Text item 2</li>
+                  <li>Elemento nr1 de la lista</li>
+                  <li>Text item 2</li>+-------------
                   <li>Text item 3</li>
                 </ul>
               </div>
